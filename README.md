@@ -446,6 +446,24 @@ In particular:
 
 For this reason, it is recommended to first test a new code or DEM with small values of `amax` and `bmax` before starting a larger enumeration.
 
+## Data
+
+The complete trapping-set enumeration for the `[[144,12,12]]`
+bivariate-bicycle code is archived on Zenodo:
+
+**DOI:** [10.5281/zenodo.21878685](https://doi.org/10.5281/zenodo.21878685)
+
+The Zenodo record contains the trapping-set support CSV files used in the
+associated experiments. The files are organized by trapping-set class using
+the naming convention
+
+```text
+a_<a>_b_<b>.csv
+```
+
+where `a` is the number of variable nodes in the trapping set and `b` is the
+number of odd-degree check nodes in its induced subgraph.
+
 ## Citation
 
 If you use this code in academic work, please cite the associated paper. Citation information will be added here when the paper is publicly available.
