@@ -50,27 +50,7 @@ pybind11
 setuptools
 ```
 
-They can be installed with
-
-```bash
-python -m pip install numpy scipy stim pybind11 setuptools
-```
-
 A C++17 compiler is also required.
-
-On Linux, a recent GCC or Clang compiler is sufficient. For example, on Ubuntu:
-
-```bash
-sudo apt install build-essential
-```
-
-On macOS, the Xcode command-line tools provide a suitable Clang compiler:
-
-```bash
-xcode-select --install
-```
-
-On Windows, the extension can be built with the Microsoft Visual C++ Build Tools.
 
 ## Building the C++ extension
 
@@ -466,4 +446,14 @@ number of odd-degree check nodes in its induced subgraph.
 
 ## Citation
 
-If you use this code in academic work, please cite the associated paper. Citation information will be added here when the paper is publicly available.
+If you use this code or the trapping set list of the `[[144,12,12]]` code for your research, please cite out paper! Also, for any comment or question, please feel free to reach out at mpacenti@arizona.edu .
+
+@misc{pacenti2026trappingsets,
+      title={Trapping Sets of Detector Error Models}, 
+      author={Michele Pacenti and Nithin Raveendran and Bane Vasic},
+      year={2026},
+      eprint={2608.11516},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2608.11516}, 
+}
