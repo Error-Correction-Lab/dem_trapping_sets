@@ -448,12 +448,13 @@ number of odd-degree check nodes in its induced subgraph.
 
 If you use this code or the trapping set list of the `[[144,12,12]]` code for your research, please cite out paper! Also, for any comment or question, please feel free to reach out at mpacenti@arizona.edu .
 
+```bibtex
 @misc{pacenti2026trappingsets,
-      title={Trapping Sets of Detector Error Models}, 
-      author={Michele Pacenti and Nithin Raveendran and Bane Vasic},
-      year={2026},
-      eprint={2608.11516},
-      archivePrefix={arXiv},
-      primaryClass={quant-ph},
-      url={https://arxiv.org/abs/2608.11516}, 
+    title         = {Trapping Sets of Detector Error Models},
+    author        = {Michele Pacenti and Nithin Raveendran and Bane Vasic},
+    year          = {2026},
+    eprint        = {2608.11516},
+    archivePrefix = {arXiv},
+    primaryClass  = {quant-ph},
+    url           = {https://arxiv.org/abs/2608.11516}
 }
